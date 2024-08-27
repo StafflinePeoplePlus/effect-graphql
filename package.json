@@ -2,7 +2,7 @@
 	"name": "@peopleplus/effect-graphql",
 	"version": "0.0.1",
 	"main": "src/index.ts",
-	"private": true,
+	"license": "MIT",
 	"scripts": {
 		"check": "tsc --noEmit",
 		"format": "prettier --write ."
