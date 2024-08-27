@@ -1,2 +1,2 @@
-import * as GraphQLSchema from './GraphQLSchema';
+import * as GraphQLSchema from './GraphQLSchema.js';
 export { GraphQLSchema };

@@ -3,17 +3,25 @@
 	"version": "0.0.1",
 	"main": "src/index.ts",
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
+		"build": "tsc",
 		"check": "tsc --noEmit",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"package": "npm run build && publint",
+		"release": "npm run package && changeset publish"
 	},
 	"devDependencies": {
 		"prettier": "^3.3.3",
+		"publint": "^0.2.10",
 		"typescript": "^5.5.4"
 	},
 	"dependencies": {
 		"@changesets/cli": "^2.27.7",
 		"@effect/schema": "^0.71.2",
 		"effect": "^3.6.6"
-	}
+	},
+	"files": [
+		"dist"
+	]
 }
