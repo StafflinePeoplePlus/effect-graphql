@@ -12,6 +12,7 @@
 		"typescript": "^5.5.4"
 	},
 	"dependencies": {
+		"@changesets/cli": "^2.27.7",
 		"@effect/schema": "^0.71.2",
 		"effect": "^3.6.6"
 	}
