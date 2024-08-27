@@ -1,0 +1,18 @@
+{
+	"name": "@peopleplus/effect-graphql",
+	"version": "0.0.1",
+	"main": "src/index.ts",
+	"private": true,
+	"scripts": {
+		"check": "tsc --noEmit",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"@effect/schema": "^0.71.2",
+		"effect": "^3.6.6"
+	}
+}
