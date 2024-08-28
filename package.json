@@ -19,7 +19,7 @@
 		"typescript": "^5.5.4"
 	},
 	"dependencies": {
-		"@effect/schema": "^0.71.2",
+		"@effect/schema": "^0.71.3",
 		"effect": "^3.6.6"
 	},
 	"files": [
