@@ -13,14 +13,14 @@
 		"release": "npm run package && changeset publish"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^2.27.9",
-		"prettier": "^3.3.3",
-		"publint": "^0.2.11",
-		"typescript": "^5.6.3"
+		"@changesets/cli": "^2.27.10",
+		"prettier": "^3.4.1",
+		"publint": "^0.2.12",
+		"typescript": "^5.7.2"
 	},
 	"dependencies": {
-		"@effect/schema": "^0.75.4",
-		"effect": "^3.6.6"
+		"@effect/schema": "^0.75.5",
+		"effect": "^3.10.18"
 	},
 	"files": [
 		"dist"
