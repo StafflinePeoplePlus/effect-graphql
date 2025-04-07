@@ -15,12 +15,12 @@
 	"devDependencies": {
 		"@changesets/cli": "^2.28.1",
 		"prettier": "^3.5.3",
-		"publint": "^0.3.8",
-		"typescript": "^5.8.2"
+		"publint": "^0.3.10",
+		"typescript": "^5.8.3"
 	},
 	"dependencies": {
 		"@effect/schema": "^0.75.5",
-		"effect": "^3.13.7"
+		"effect": "^3.14.6"
 	},
 	"files": [
 		"dist"
