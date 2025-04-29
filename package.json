@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@effect/schema": "^0.75.5",
-		"effect": "^3.14.14"
+		"effect": "^3.14.15"
 	},
 	"files": [
 		"dist"
